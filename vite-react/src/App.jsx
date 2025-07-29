@@ -1,10 +1,10 @@
-import ReactLogo from './assets/react.svg?react';
-import { MyComponent } from './newComp';
+import { Eaty } from './Eaty';
+import './index.css';
 
-export const App = () => (
-	<div>
-		<h1>Hello World</h1>
-		<ReactLogo />
-		<MyComponent />
-	</div>
-);
+export const App = () => {
+	return (
+		<>
+			<Eaty />
+		</>
+	);
+};
